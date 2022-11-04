@@ -76,6 +76,7 @@ export default function Contact() {
                             <Form.Label>Message</Form.Label>
                             <Form.Control value={formik.values.message}
                                           as='textarea'
+                                          style={{height: '132px'}}
                                           name='message'
                                           placeholder="Send me a message and I'll reply you as soon as possible..."
                                           onChange={formik.handleChange}

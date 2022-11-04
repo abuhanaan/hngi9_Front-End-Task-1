@@ -3,7 +3,7 @@ import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Contact from './components/Contact';
 import Home from './components/Home';
-import Footer from './components/Footer';
+import FooterComponent from './components/FooterComponent';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
-        <Footer></Footer>
+        <FooterComponent></FooterComponent>
         </div>
       </Container>
     </Router>
