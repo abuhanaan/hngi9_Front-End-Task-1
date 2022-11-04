@@ -3,7 +3,7 @@ import React from 'react'
 export default function Profile() {
   return (
     <>
-      <div>
+      <div className='mt-2'>
         <div className='d-grid justify-content-center'>
             <img src={require('../myPic.png')} alt='profile-pic' id='profile-img'></img>
         </div>

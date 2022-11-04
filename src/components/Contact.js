@@ -30,7 +30,7 @@ export default function Contact() {
     return (
         <div>
         <Container>
-            <Card>
+            
                 <div>
                     <h5>Contact Me</h5>
                     <p>Hi there, contact me to ask me about anything you have in mind.</p>
@@ -98,7 +98,7 @@ export default function Contact() {
                         Submit
                     </Button>
                 </div>
-            </Card>
+            
         </Container>
         </div>
     )

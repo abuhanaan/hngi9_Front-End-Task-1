@@ -42,7 +42,7 @@ export default function LinkSection() {
         </div>
             
         <div className='d-flex justify-content-center'>
-        <span className="fa-stack fa-2x mb-2">
+        <span className="fa-stack fa-2x">
             <i className="fa-brands fa-github fa-money-check-dollar fa-flip"></i>
             <i className="fa-brands fa-slack fa-money-check-dollar fa-flip"></i>
             </span>
