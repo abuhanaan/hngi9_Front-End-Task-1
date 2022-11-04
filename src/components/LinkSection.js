@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from 'react-bootstrap' 
+import { Link } from 'react-router-dom'
 
 export default function LinkSection() {
   return (
@@ -35,6 +36,9 @@ export default function LinkSection() {
                     Design Books
                 </Button>
             </a>
+            <Link to='/contact'>
+                <Button variant="secondary" size="lg" className='w-100'>Contact</Button>
+            </Link>
         </div>
             
         <div className='d-flex justify-content-center'>
