@@ -36,8 +36,8 @@ export default function LinkSection() {
                     Design Books
                 </Button>
             </a>
-            <Link to='/contact'>
-                <Button variant="secondary" size="lg" className='w-100'>Contact</Button>
+            <Link id='contact' to='/contact'>
+                <Button variant="secondary" size="lg" className='w-100'>Contact Me</Button>
             </Link>
         </div>
             

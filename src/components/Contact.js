@@ -1,6 +1,6 @@
 import React from 'react'
-import { Button, Card, Container, Form, Alert } from 'react-bootstrap'
-import { Row, Col } from 'react-bootstrap'
+import { Button, Container, Form, Alert } from 'react-bootstrap'
+import { Row } from 'react-bootstrap'
 import * as Yup from 'yup'
 import { useFormik } from 'formik'
 
@@ -37,8 +37,8 @@ export default function Contact() {
                 </div>
                 <div>
                     <Form noValidate validated={formik.validated} onSubmit={formik.handleSubmit}>
-                    <Row className="mb-3">
-                        <Form.Group as={Col} controlId="first_name">
+                    <Row>
+                        <Form.Group className='col-md-6' controlId="first_name">
                             <Form.Label>First Name</Form.Label>
                             <Form.Control name='first_name'
                                           value={formik.values.first_name} 
@@ -49,7 +49,7 @@ export default function Contact() {
                             {formik.touched.first_name && formik.errors.first_name ? <Alert variant='danger'>{formik.errors.first_name}</Alert> : null}
                         </Form.Group>
 
-                        <Form.Group as={Col} controlId="last_name">
+                        <Form.Group className='col-md-6' controlId="last_name">
                             <Form.Label>Last Name</Form.Label>
                             <Form.Control name='last_name' 
                                           type="text" 
